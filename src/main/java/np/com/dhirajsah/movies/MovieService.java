@@ -17,9 +17,9 @@ public class MovieService {
 
     public List<Movie> findAllMovies() {
         List<Movie> movies = repository.findAll();
-        movies.forEach(movie -> {
-            System.out.println("Generated toString: " + movie.toString());
-        });
+//        movies.forEach(movie -> {
+//            System.out.println("Generated toString: " + movie.toString());
+//        });
         return movies;
     }
 
